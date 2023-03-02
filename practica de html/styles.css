@@ -1,0 +1,41 @@
+:root {
+  background-color: aqua;
+  box-sizing: border-box;
+  box-sizing: inherit;
+
+}
+
+* {
+  border: 1px solid black
+}
+
+section{
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
+  align-content: flex-end;
+  
+
+  }
+
+div {
+  width: 20%;
+  height: 20%;
+  padding: 10px;
+  font-size: 50px;
+  align-items: center;
+  align-content: center;
+  
+}
+.a{
+  background-color: aquamarine;
+}
+div:hover {
+  background-color: rgb(190, 27, 27);
+  font-size: 100px;
+  animation: reverse ;
+  
+  
+}
